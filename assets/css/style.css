@@ -28,8 +28,9 @@ main {
 }
 
 nav {
-    background-color: beige;
+    background: linear-gradient(to bottom, #9cfd93 0%, #bf95e7 100%);
     padding: 10px;
+    width: 100%;
 }
 
 nav ul {
@@ -83,4 +84,10 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+.locations{
+    list-style-type: none;
+}
+footer {
+    background: linear-gradient(to bottom, #e0f5b0 0%, #d1b9e7 100%);
 }
